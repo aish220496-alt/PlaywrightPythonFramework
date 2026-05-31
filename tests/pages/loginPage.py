@@ -7,7 +7,7 @@ class LoginPage:
     def navigate(self):
         self.page.goto('https://rahulshettyacademy.com/client/#/auth/login')
 
-
+    # login page class
 
     def login(self):
         self.page.get_by_placeholder("email@example.com").fill("test@atest.com")
