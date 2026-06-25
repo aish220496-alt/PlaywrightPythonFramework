@@ -10,3 +10,4 @@ def test_e2e_webpage(page):
 
     dashpage = DashboardPage(page)
     dashpage.selectItems()
+    dashpage.placeOrder()
